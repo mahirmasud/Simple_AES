@@ -15,5 +15,5 @@ hashs = hashlib.sha256(msg).hexdigest()
 msg1 = pad(msg, 16)
 enc = cipher.encrypt(msg1)
 
-print(f'enc = {enc}') # bytes object
-print(f'hash = {hashs}') # str object
+print(f'enc = {enc}') 
+print(f'hash = {hashs}') 
